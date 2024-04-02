@@ -120,6 +120,9 @@ ClientBin/
 *.pfx
 *.publishsettings
 
+# JetBrains
+.idea/
+
 # RIA/Silverlight projects
 Generated_Code/
 
