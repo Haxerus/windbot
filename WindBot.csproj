@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WindBot</RootNamespace>
     <AssemblyName>WindBot</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <LangVersion>6</LangVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -27,6 +27,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\Release\</OutputPath>
@@ -36,6 +37,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -58,6 +60,7 @@
     <Compile Include="Config.cs" />
     <Compile Include="Game\AI\Deck.cs" />
     <Compile Include="Game\AI\Decks\KashtiraExecutor.cs" />
+    <Compile Include="Game\AI\Decks\NumeronExecutor.cs" />
     <Compile Include="Game\AI\Decks\TearlamentsExecutor.cs" />
     <Compile Include="Game\AI\Decks\ThunderDragonExecutor.cs" />
     <Compile Include="Game\AI\Decks\[HealingJAMExecutor].cs" />
